@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393C5D"
+    tools:context=".Dobavlenie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="44dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Добаавление объекта"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/reg_fam"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="#B4B4BC"
+            android:ems="10"
+            android:hint="  Название организации"
+            android:inputType="textPersonName"
+            android:textColorHint="#FF7C808C" />
+
+        <EditText
+            android:id="@+id/reg_nam"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:background="#B4B4BC"
+            android:ems="10"
+            android:hint=" Название площадки"
+            android:inputType="textPersonName"
+            android:textColorHint="#FF7C808C" />
+
+        <EditText
+            android:id="@+id/reg_ot"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:background="#B4B4BC"
+            android:ems="10"
+            android:hint="   Руководитель"
+            android:inputType="textPersonName"
+            android:textColorHint="#FF7C808C" />
+
+        <EditText
+            android:id="@+id/reg_tel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:background="#B4B4BC"
+            android:ems="10"
+            android:hint="   Телефон руководителя"
+            android:inputType="textPersonName"
+            android:textColorHint="#FF7C808C" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/Dob"
+                android:layout_width="141dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="20dp"
+                android:onClick="dob"
+                android:text="Добавить"
+                android:textColor="#393C5D"
+                app:backgroundTint="#9CDA9B"
+                app:cornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/pas2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/Otmena"
+                app:layout_constraintTop_toBottomOf="@+id/Nomer"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/Otmena"
+                android:layout_width="141dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="6dp"
+                android:onClick="otm"
+                android:text="Отмена"
+                android:textColor="#393C5D"
+                app:backgroundTint="#DC4937"
+                app:cornerRadius="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/pas2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.186"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Nomer"
+                app:layout_constraintVertical_bias="1.0"
+                android:layout_marginStart="6dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/pers2"
+        android:layout_width="205dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="2dp"
+        android:background="#3F4674"
+        android:contentDescription="TODO"
+        android:onClick="pers2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:srcCompat="@drawable/pasiv_work"
+        tools:ignore="UnknownId" />
+
+    <ImageButton
+        android:id="@+id/pas2"
+        android:layout_width="212dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginBottom="2dp"
+        android:background="#3F4674"
+        android:contentDescription="TODO"
+        android:onClick="pas2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:srcCompat="@drawable/pasp"
+        tools:ignore="UnknownId,UnknownIdInLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
