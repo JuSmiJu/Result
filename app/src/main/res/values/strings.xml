@@ -3,4 +3,5 @@
     <string name="logOrReg">Зарегистрируйтесь или войдите</string>
     <string name="log">Вход</string>
     <string name="reg">Зарегистрироваться</string>
+    <string name="title_activity_info">Map</string>
 </resources>
