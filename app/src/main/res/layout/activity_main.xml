@@ -39,22 +39,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="6dp"
-            app:cornerRadius="30dp"
             android:layout_weight="1"
+            android:onClick="log"
             android:text="@string/log"
             android:textColor="@color/fon"
-            app:backgroundTint="@color/online" />
+            app:backgroundTint="@color/online"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/but_reg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
-            app:cornerRadius="30dp"
             android:layout_weight="1"
+            android:onClick="reg"
             android:text="@string/reg"
             android:textColor="@color/fon"
-            app:backgroundTint="@color/online" />
+            app:backgroundTint="@color/online"
+            app:cornerRadius="30dp" />
     </LinearLayout>
 
     <include
