@@ -27,7 +27,7 @@
             android:textSize="30dp"/>
 
         <EditText
-            android:id="@+id/reg_fam"
+            android:id="@+id/reg_id_org"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginLeft="50dp"
@@ -35,7 +35,7 @@
             android:layout_marginRight="50dp"
             android:background="#B4B4BC"
             android:ems="10"
-            android:hint="  Название организации"
+            android:hint="  id организации"
             android:inputType="textPersonName"
             android:textColorHint="#FF7C808C" />
 
@@ -53,7 +53,7 @@
             android:textColorHint="#FF7C808C" />
 
         <EditText
-            android:id="@+id/reg_ot"
+            android:id="@+id/reg_shir"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginLeft="50dp"
@@ -61,12 +61,12 @@
             android:layout_marginRight="50dp"
             android:background="#B4B4BC"
             android:ems="10"
-            android:hint="   Руководитель"
+            android:hint="   Ширина"
             android:inputType="textPersonName"
             android:textColorHint="#FF7C808C" />
 
         <EditText
-            android:id="@+id/reg_tel"
+            android:id="@+id/reg_dolg"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginLeft="50dp"
@@ -74,7 +74,7 @@
             android:layout_marginRight="50dp"
             android:background="#B4B4BC"
             android:ems="10"
-            android:hint="   Телефон руководителя"
+            android:hint="   Долгота"
             android:inputType="textPersonName"
             android:textColorHint="#FF7C808C" />
 
@@ -151,7 +151,6 @@
         android:layout_width="212dp"
         android:layout_height="80dp"
         android:layout_marginStart="-1dp"
-        android:layout_marginLeft="-1dp"
         android:layout_marginTop="552dp"
         android:layout_marginBottom="2dp"
         android:background="#3F4674"

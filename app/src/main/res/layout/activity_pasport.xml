@@ -27,7 +27,7 @@
         <TextView
             android:id="@+id/pass_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:gravity="left"
@@ -38,22 +38,22 @@
         <TextView
             android:id="@+id/pass_ogrn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:gravity="left"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:textColor="@color/white_text"
             android:textSize="20dp"/>
 
         <TextView
-            android:id="@+id/pas_inn"
+            android:id="@+id/pass_inn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:gravity="left"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:textColor="@color/white_text"
             android:textSize="20dp"/>
 
@@ -66,7 +66,6 @@
         android:layout_width="212dp"
         android:layout_height="80dp"
         android:layout_marginStart="-1dp"
-        android:layout_marginLeft="-1dp"
         android:layout_marginTop="552dp"
         android:layout_marginBottom="2dp"
         android:background="#3F4674"
@@ -83,7 +82,6 @@
         android:layout_height="80dp"
         android:layout_marginTop="552dp"
         android:layout_marginEnd="-1dp"
-        android:layout_marginRight="-1dp"
         android:layout_marginBottom="2dp"
         android:background="#3F4674"
         android:onClick="pers"
